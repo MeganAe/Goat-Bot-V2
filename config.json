@@ -24,7 +24,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🟢...𝘄𝗮𝗹𝗸𝗲𝗿𝗚𝗽𝘁...⚪",
+  "nickNameBot": "𝗔𝗡𝗢𝗧𝗛𝗘𝗥-𝗠𝗘| 🧋✨",
   "prefix": "<",
   "database": {
     "type": "sqlite",
