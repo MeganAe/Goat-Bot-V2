@@ -29,7 +29,7 @@ module.exports = {
       const prompt = event.body.substring(prefix.length).trim();
 
       if (!prompt) {
-        const defaultMessage = getCenteredHeader("𝙼𝚘𝚌𝚑𝚊 | 🧋✨") + "\n" + horizontalLine + "\nHello! Ask me anything!\n" + horizontalLine;
+        const defaultMessage = getCenteredHeader("𝗔𝗡𝗢𝗧𝗛𝗘𝗥-𝗠𝗘 | 🧋✨") + "\n" + horizontalLine + "\nHello! Ask me anything!\n" + horizontalLine;
         await message.reply(defaultMessage);
         return;
       }
@@ -37,7 +37,7 @@ module.exports = {
       const answer = await getGPTResponse(prompt);
 
       // Adding header and horizontal lines to the answer
-      const answerWithHeader = getCenteredHeader("𝙼𝚘𝚌𝚑𝚊 | 🧋✨") + "\n" + horizontalLine + "\n" + answer + "\n" + horizontalLine;
+      const answerWithHeader = getCenteredHeader("𝗔𝗡𝗢𝗧𝗛𝗘𝗥-𝗠𝗘 | 🧋✨") + "\n" + horizontalLine + "\n" + answer + "\n" + horizontalLine;
       
       await message.reply(answerWithHeader);
     } catch (error) {
